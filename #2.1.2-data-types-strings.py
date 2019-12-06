@@ -2,13 +2,13 @@
 
 string = "abcdefghijklmnopqrstuvwxyz"
 # getting the lenght of our string
-l = len(string)
-print(l)
+lol = len(string)
+print(lol)
 
 '''
 Many ways to access the last element of your string
 '''
-# when visually knowing its lenght 
+# when visually knowing its lenght
 s = string[25]
 print(s)
 
@@ -62,7 +62,7 @@ print(s)
 using steps, when sub-stringing(no idea if the term exists, but you
 got the idea).
 [i, j, step]:: going from i to j by jumping with step
-i.e:: taking i, i + step, i + step + step, ..., i + step + step... + step <= j 
+i.e:: taking i, i + step, i + step + step, ..., i + step + step... + step <= j
 '''
 # here the step is equal to 2
 # this means taking the following
