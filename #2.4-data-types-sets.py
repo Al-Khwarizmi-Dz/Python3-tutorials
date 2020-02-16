@@ -9,9 +9,6 @@
 # fonction
 lol = set()
 
-# empty brackets
-ll = {}
-
 # with elements
 # as you can see, The -lll- list holds many objects of different types.
 # duplicates
@@ -20,9 +17,8 @@ lll = [1, False, 2, False, "Goal", "Goal"}
 # no duplicates, it gives the same one
 lll = {1, False, 2, "Goal"}
 
-''' Lenght of a list. '''
-# getting the lenght of the list
-# len(lll) = 7
+''' Lenght of a set. '''
+# getting the lenght of the set
 lenght = len(lll)
 
 ''' Mutability notion'''

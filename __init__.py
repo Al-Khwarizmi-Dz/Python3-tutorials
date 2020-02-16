@@ -1,6 +1,6 @@
-''' Extra '''
-one = [1, 2, 3]
-two = [4, 5, 6]
-temp = one + two
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
-print(temp)
+temp = Dict
+
+
+print(Dict.items())

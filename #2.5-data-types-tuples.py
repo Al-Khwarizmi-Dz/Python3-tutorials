@@ -15,9 +15,8 @@ ll = ()
 # different types.
 lll = (1, "string", [12], False, 1.23, (1 + 1j), True)
 
-''' Lenght of a list. '''
-# getting the lenght of the list
-# len(lll) = 7
+''' Lenght of a tuple. '''
+# getting the lenght of the tuple
 lenght = len(lll)
 
 ''' Accessing elemnts. '''
