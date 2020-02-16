@@ -1,5 +1,6 @@
-int_num = 10
-float_num = 10.2
-complex_num = 3.14j
+''' Extra '''
+one = [1, 2, 3]
+two = [4, 5, 6]
+temp = one + two
 
-print(int_num, float_num, complex_num)
+print(temp)

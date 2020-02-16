@@ -1,18 +1,19 @@
-''' What is a list. '''
-# it is a collection that holds, manu object in one place.
-# the objects can have the same type, or it can aldo be diffrent.
+''' What is a tuple. '''
+# it is a collection that holds, many objects in one place.
+# the objects can have the same type, or it can also be diffrent.
+# the thing is in mutability
 
 ''' How to declare a list. '''
 # fonction
-lol = list()
+lol = tuple()
 
 # empty brackets
-ll = []
+ll = ()
 
 # brackets, with elements
 # as you can see, The -lll- list holds many objects of
 # different types.
-lll = [1, "string", [12], False, 1.23, (1 + 1j), True]
+lll = (1, "string", [12], False, 1.23, (1 + 1j), True)
 
 ''' Lenght of a list. '''
 # getting the lenght of the list
@@ -35,11 +36,15 @@ out = lll[-2]
 out = lll[len(lll) - 2]
 
 ''' Mutability notion'''
-# adding the refence
-temp = lll
+# because it is not mutable, you cannot change the tuple values
+# by accessing and modifying.
+lll[2] = "HERE"
 
-# adding a new element to temp, that is the same lll
-temp.append(1997)
+# adding the refence
+# it creates a copy
+temp = lll
+print(temp is lll)
+
 
 ''' Slicing elemnts. '''
 # copying the all the list
@@ -88,23 +93,25 @@ temp = lll[l::-1]
 
 ''' Some functions with the lists'''
 # add a new elements
+# it will raise an error, because you can't add new elements to it.
+# remeber the word -mutable-.
 lll.append("New Element")
-lll.append(123)
 
 # delete an element
-lll.remove(123)
+# it will raise an error, because you can't delete elements to it.
+# remeber the word -mutable-.
+lll.remove(1)
 
 # get the index of an element
 index = lll.index()
 
-# indert a new element, at a spesific index
-lll.insert("Element", 3)
+# count the number of occurences of an element in the tuple
+counter = lll.count(1)
 
-# delete the last element of the list
-lll.pop()
-
-# empty the list, delete all the elements
-lll.clear()
+''' Extra '''
+one = (1, 2, 3)
+two = (4, 5, 6)
+temp = one + two
 
 
 '''
